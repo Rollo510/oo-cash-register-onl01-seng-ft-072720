@@ -2,12 +2,10 @@ class CashRegister
 
   attr_accessor :total, :discount, :quantity
 
-  @@items = []
 
   def initialize(discount = 20)
     @total = 0
     @discount = discount
-    @@items << self
   end
   
   def add_item(title, price, quantity = 1)
@@ -23,9 +21,6 @@ class CashRegister
     end
   end
   
-  def items
-    @@items
-  end  
-  
+
   
 end 
