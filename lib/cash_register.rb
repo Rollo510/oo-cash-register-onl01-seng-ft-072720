@@ -2,7 +2,7 @@ class CashRegister
 
 attr_accessible = :total, :discount 
 
-def initialize(discount = 0)
+def initialize(discount = nil)
   @total = total
   @discount = discount
   total = 0
