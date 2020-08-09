@@ -7,7 +7,7 @@ class CashRegister
   def initialize(discount = 20)
     @total = 0
     @discount = discount
-    @@items << self
+    self.class.all << self
   end
   
   def add_item(title, price, quantity = 1)
@@ -23,7 +23,7 @@ class CashRegister
     end
   end
   
-  def items
+  def self.all
     @@items
   end  
   
