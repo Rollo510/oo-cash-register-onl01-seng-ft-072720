@@ -2,8 +2,9 @@ class CashRegister
 
 attr_accessible = 
 
-def initialize()
-
+def initialize(total = 0)
+  @discount = discount
+end
 
 
 
