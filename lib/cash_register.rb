@@ -5,19 +5,6 @@ class CashRegister
   def initialize(discount = 0)
     @total = 0
     @discount = discount
-    @items = []
+    
   end
-end  
-
-
-class CashRegister
-
-attr_accessor = :total, :discount 
-
-def initialize(discount = 0)
-  @total = 0
-  @discount = discount
-  
-end
-
-end
+end 
