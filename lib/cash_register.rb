@@ -12,6 +12,9 @@ class CashRegister
   end
   
   def apply_discount
+    @total *= .20
+    puts ""
+  end
   
   
   
