@@ -2,7 +2,7 @@ class CashRegister
 
 attr_accessible = 
 
-def initialization ()
+def initialize()
 
 
 
